@@ -12,7 +12,7 @@ LUCI_BASENAME:=luci
 LUCI_TITLE:=LuCI interface with Nginx as Webserver (default)
 LUCI_DESCRIPTION:=Standard OpenWrt set including full admin with ppp support and the default theme
 LUCI_DEPENDS:= \
-	+nginx +nginx-mod-luci +luci-mod-admin-full +luci-theme-argon-dark-mod \
+	+nginx +nginx-mod-luci +luci-mod-admin-full +luci-theme-material \
 	+luci-app-firewall +luci-app-opkg +luci-proto-ppp +libiwinfo-lua +IPV6:luci-proto-ipv6 \
 	+rpcd-mod-rrdns
 

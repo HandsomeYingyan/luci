@@ -12,7 +12,7 @@ LUCI_BASENAME:=uhttpd
 LUCI_TITLE:=LuCI interface with Uhttpd as Webserver 
 LUCI_DESCRIPTION:=Standard OpenWrt set including full admin with ppp support and the default theme
 LUCI_DEPENDS:= \
-	+uhttpd +luci-mod-admin-full +luci-theme-argon-dark-mod \
+	+uhttpd +luci-mod-admin-full +luci-theme-material \
 	+luci-app-firewall +luci-app-opkg +luci-proto-ppp +libiwinfo-lua +IPV6:luci-proto-ipv6 \
 	+rpcd-mod-rrdns
 
